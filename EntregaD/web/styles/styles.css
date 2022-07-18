@@ -1,0 +1,10 @@
+/* BORDA VERMELHA EM DEV */
+.borda {
+    border: 1px solid red;
+}
+
+/* FORMATANDO IMG NO CARD */
+.card img {
+    max-height: 25vh; 
+    object-fit: contain;
+}

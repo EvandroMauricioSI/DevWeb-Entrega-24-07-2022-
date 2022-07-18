@@ -1,0 +1,19 @@
+<!-- SCRIPTS -->
+<!-- JQUERY -->
+<script src="JQuery/jquery-3.5.1.min.js"></script>
+<!-- JQUERY MASK -->
+<script src="JQuery/jquery.mask.min.js"></script>
+<!-- POPPER -->
+<script src="Popper/popper-2.8.4.min.js"></script>
+<!-- BOOTSTRAP -->
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        // SETANDO AS MÁSCARAS
+        $('.cpf').mask('999.999.999-99');
+        $('.cnpj').mask('99.999.999/9999-99');
+        $('.data').mask('99/99/9999');
+        $('.telefone').mask('(99) 99999-9999');
+    });
+</script>
