@@ -63,11 +63,11 @@
                         <label><b>Tipo de Conta</b></label>
                         <br>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="tipoUsuario" id="administrador" value="0">
+                            <input class="form-check-input" type="radio" name="tipoUsuario" id="administrador" value="0" checked>
                             <label class="form-check-label" for="administrador">Administrador</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="tipoUsuario" id="vendedor" value="1" checked>
+                            <input class="form-check-input" type="radio" name="tipoUsuario" id="vendedor" value="1" >
                             <label class="form-check-label" for="vendedor">Vendedor</label>
                         </div>
                         <div class="form-check form-check-inline">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <!-- BOTÃO SUBMIT -->
-                    <button type="submit" class="btn btn-dark"><i class="fas fa-check"></i> Entrar</button>
+                    <button type="submit" class="btn btn-dark"><i class="fas fa-check"></i> OK </button>
                 </form>
             </div>
         </div>
